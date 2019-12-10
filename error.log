@@ -1,1 +1,6 @@
 Error 579: Enkel getallen tussen de 0 en 10 worden geaccepteerd
+Error 579: Enkel getallen onder de 10 worden geaccepteerd
+Error 580: Enkel getallen boven de 0 worden geaccepteerd
+Error 579: Enkel getallen tussen de 0 en 10 worden geaccepteerd
+Error 579: Enkel getallen tussen de 0 en 10 worden geaccepteerd
+Error 580: Veld kan niet leeg zijn
