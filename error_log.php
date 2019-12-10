@@ -13,7 +13,7 @@ function countdown($input){
         exit;
     } 
        
-       if ($input == NULL){ 
+       if ($input == NULL || !is_numeric($input)){ 
         error_log("Error 580: Veld kan niet leeg zijn" . PHP_EOL , 3, "error.log");
 
         echo "Veld kan niet leeg zijn";
@@ -21,7 +21,7 @@ function countdown($input){
         exit;
        }
 
-        if($input >= 0 || $input <= 10 || $input !== NULL){
+        if(is_numeric($input) || $input >= 0 || $input <= 10 || $input !== NULL ){
 
 for ($i=$input; $i >= 0; $i--) { 
     echo $i . " Seconden" . PHP_EOL;
